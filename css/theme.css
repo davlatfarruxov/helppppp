@@ -2356,7 +2356,7 @@ body.preview {
   padding-top: 20px;
   padding-left: 15px;
   padding-bottom: 15px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid rgb(110, 141, 204);
 }
 .result-box .result_label h3 {
   font-size: 20px;
@@ -2380,4 +2380,13 @@ body.preview {
   padding-left: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+#content  .search_result h6,
+#content  .search_result p {
+  margin: 0;
+  color: #fff;
+  padding-left: 25px; 
+}
+#content  .search_result {
+  border-bottom: 1px solid rgb(110, 141, 204);
 }
