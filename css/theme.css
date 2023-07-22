@@ -2396,5 +2396,74 @@ body.preview {
 }
 
 
+/* Assuming you've included Font Awesome CSS properly */
+/* If not, you can include it using the following line:
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-fD9jmJC7EhLT3+goDK6pLxkCwMeeK2g9Qb/58xj26tTX7A7IBBEhjc7qXlVFFzSjp8k8Nxz/LS3V+ZByvLMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+*/
 
+.search-container {
+  position: relative;
+}
 
+.search-input {
+  padding: 8px 40px 8px 16px;
+  border: 1px solid #2450a6;
+  border-radius: 2px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #2450a6; /* Set the color of the icon to blue */
+  pointer-events: none; /* Ensure the icon doesn't interfere with typing/clicking on the input */
+}
+.container-df {
+  width: 80%;
+  margin: auto;
+}
+
+.search-container input {
+  width: 100%;
+}
+.search-container input::placeholder {
+  font-size: 13px;
+}
+.search-container {
+  padding-top: 10px;
+}
+.search-container span{
+  padding-top: 8px;
+}
+.banner-img img {
+  width: 150px;
+  margin-right: 5px;
+}
+.banner-discount {
+  display: flex;
+  margin-top: 10px;
+  background-color: #2450a6;
+  border-radius: 5px;
+  color: #fff;
+  padding-right: 10px;
+}
+.banner-discount h5 {
+padding-top: 15px;
+padding-left: 20px; 
+}
+.banner-discount p {
+  padding-left: 20px; 
+  }
+.cat-button {
+  width: 20px;
+}
+.category-title {
+  display: flex;
+  justify-content: space-between;
+} 
+.category-title  .cat-button{
+  /* display: flex; */
+}
