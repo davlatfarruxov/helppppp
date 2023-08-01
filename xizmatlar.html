@@ -21,6 +21,17 @@
     <script defer src="lib/fontawesome-free-5.10.2-web/js/regular.min.js"></script>
     <script defer src="lib/fontawesome-free-5.10.2-web/js/fontawesome.min.js"></script>
     <link href="lib/gijgo/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+  <style>
+    #image-book-a-car {
+      width: 15px;
+      margin-left: 5px;
+    }
+  </style>
   </head>
   <body class="default">
     <div class="preloading">
@@ -49,48 +60,46 @@
           <a href="index.html"><i class="fas fa-home"></i>Uy</a>
         </li>
         <li>
-          <a href="index.html"><i class="fas fa-home"></i>Xizmatlar</a>
+          <a href="xizmatlar.html"><i class="fas fa-car"></i>Xizmatlar</a>
         </li>
         <li>
-          <a href="index.html"><i class="fas fa-home"></i>Takliflar</a>
+          <a href="book_a_car.html"><img id="image-book-a-car" src="http://localhost:63342/helppppp/img/ipoffer2.png" alt=""> Book a car</a>
         </li>
         <li>
-          <a href="book_a_car.html"><i class="fas fa-car"></i>Book a car</a>
-        </li>
-        <li>
-          <a href="#pagemybooking" data-toggle="collapse" aria-expanded="false"><i class="fas fa-receipt"></i>My Bookings <span><i class="fas fa-caret-down"></i></span></a>
+          <a href="#pagemybooking" data-toggle="collapse" aria-expanded="false"><i class="fas fa-receipt"></i>Menga tegishli <span><i class="fas fa-caret-down"></i></span></a>
           <ul class="collapse collapsible-body" id="pagemybooking">
             <li>
-              <a href="xizmatlar.html">Help Me</a>
+              <a href="cart.html">Mening buyurtmalarim</a>
             </li>
             <li>
-              <a href="cart.html">My order</a>
-            </li>
-            <li>
-              <a href="checkout.html">Place an order</a>
+              <a href="checkout.html">Buyurtma berish</a>
             </li>
           </ul>
         </li>
         <li>
           <li>
-            <a href="#pagemyaccount" data-toggle="collapse" aria-expanded="false"><i class="fas fa-user"></i>My Account <span><i class="fas fa-caret-down"></i></span></a>
+            <a href="#pagemyaccount" data-toggle="collapse" aria-expanded="false">
+              <i class="fas fa-user"></i>Mening hisobim <span><i class="fas fa-caret-down"></i></span></a>
             <ul class="collapse collapsible-body" id="pagemyaccount">
               <li>
-                <a href="setting.html">Settings</a>
+                <a href="setting.html">Sozlamalar</a>
               </li>
             </ul>
           </li>
       
           <li>
-            <a href="#"><i class="fas fa-star"></i>Rate</a>
+            <a href="#"><i class="fas fa-star"></i>Baholash</a>
           </li>
           <li>
-            <a href="feedback.html"><i class="fas fa-envelope"></i>Feedback</a>
+            <a href="feedback.html"><i class="fas fa-envelope"></i>Xabarlar</a>
           </li>
           
           <li>
-            <a href="single_page.html"><i class="fas fa-exclamation-circle"></i>About</a>
+            <a href="single_page.html"><i class="fas fa-exclamation-circle"></i>Biz haqimizda</a>
           </li>
+        <li>
+          <a href="single_page.html"><i class="fas fa-sign-out-alt"></i>Chiqish</a>
+        </li>
         </ul>
       </nav>
       <nav class="navbar navbar-expand-lg navbar-light bg-header">
@@ -254,7 +263,7 @@
           </a>
         </div>
         <div class="bp-col">
-          <a href="destinations.html">
+          <a href="takliklar.html">
             <div class="bp-icon"><img src="img/ipoffer2.png" alt="icon"></div>
             <div class="bp-text">Takliflar</div>
           </a>
