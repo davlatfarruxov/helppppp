@@ -2512,7 +2512,7 @@ padding-left: 20px;
 }
 .product_item .product_image img {
   border-radius: 20px;
-
+  
 }
 .product_item .product_footer {
   font-weight: 700;
@@ -2520,10 +2520,36 @@ padding-left: 20px;
 .product_box {
   display: flex;
   margin-top: 25px;
+  flex-wrap: wrap;
 }
 .product_box .product_item {
   margin-right: 20px;
 }
 .product_box .product_item .product_name {
   padding-top: 20px;
+}
+.product_item .product_footer .product_nuqta {
+  width: 2px;
+  height: 2px;
+  color: #000;
+  background-color: #000;
+  border: 2psx solid #000;
+margin-top: 8px; 
+}
+.product_item .product_footer {
+  display: flex;
+  justify-content: space-between;
+}
+.product_item .product_footer img {
+  width: 20px;
+
+}
+.product_item .product_footer .product_details p {
+  color: #2450a6;
+}
+.product_item .product_footer .product_cost p {
+  font-weight: 500;
+}
+.product-section .product_item {
+  width: 136px;
 }
