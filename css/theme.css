@@ -2464,10 +2464,7 @@ padding-left: 20px;
   display: flex;
   justify-content: space-between;
 } 
-<<<<<<< HEAD
-.category-title  .cat-button{
-  /* display: flex; */
-}
+
 
 .s-icon {
   border: 1px solid #28b3b3;
@@ -2498,7 +2495,7 @@ padding-left: 20px;
   text-align: center;
   position: relative;
   bottom: -18px;
-=======
+}
 .category-section .category-title {
   margin-top: 10px;
 }
@@ -2555,15 +2552,14 @@ padding-left: 20px;
 .product_box {
   display: flex;
   margin-top: 25px;
+  flex-wrap: wrap;
 }
 .product_box .product_item {
   margin-right: 20px;
 }
 .product_box .product_item .product_name {
   padding-top: 20px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 }
 .product_item .product_footer .product_nuqta {
   width: 2px;
@@ -2589,11 +2585,5 @@ margin-top: 8px;
 }
 .product-section .product_item {
   width: 136px;
-=======
->>>>>>> b527aab02cb0dc74a3709f289b7a0cee6c17d345
->>>>>>> d7a938d36cc21dd3f8e3c67177cdc33cef693263
-=======
->>>>>>> parent of 12640c5 (conmmmit)
-=======
->>>>>>> parent of 12640c5 (conmmmit)
+
 }
